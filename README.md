@@ -16,7 +16,7 @@ cd webpack-angular1-starter
 npm install
 ```
 
-## Run
+## Run(webpack-dev-server)
 
 ```
 npm start
