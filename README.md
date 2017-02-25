@@ -30,3 +30,10 @@ npm run build
 ```
 
 So dist folder is generated.
+
+
+## How to use
+
+1. Add controller js and view html to src/js/pages.
+2. Add routing setting to src/js/config.route.js.
+3. Add menu to src/index.html
