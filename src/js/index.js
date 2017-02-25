@@ -8,11 +8,14 @@ angular.module('myApp', [
     router,
     material,
     highchartNg
-]);
-
-window.Highcharts = Highcharts;
+]).config(Config);
 
 // configurations
+function Config($windowProvider) {
+    // setup highchart
+    var $window = $windowProvider.$get();
+    $window.Highcharts = Highcharts;
+}
 require('./config.route');
 
 // css
