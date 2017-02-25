@@ -2,6 +2,12 @@
 
 This is a project template for angular1.X and Webpack2.
 
+This project uses the following libraries.
+
+- Angular1.X
+- ui-router
+- Angular Material
+
 ## Install
 
 ```
