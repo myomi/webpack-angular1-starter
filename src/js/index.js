@@ -4,7 +4,7 @@ var material = require('angular-material');
 var Highcharts = require('highcharts');
 var highchartNg = require('highcharts-ng');
 
-var myApp = angular.module('myApp', [
+angular.module('myApp', [
     router,
     material,
     highchartNg
