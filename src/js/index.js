@@ -35,3 +35,7 @@ require('./pages/clock/clock.html');
 // chart 
 require('./pages/chart/chart.controller');
 require('./pages/chart/chart.html');
+
+// inject
+require('./pages/inject/inject.controller');
+require('./pages/inject/inject.html');

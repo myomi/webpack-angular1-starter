@@ -15,6 +15,14 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.js$/,
+                use: [
+                    {
+                        loader: 'ng-annotate-loader'
+                    }
+                ]
+            },
+            {
                 test: /\.html$/,
                 use: [
                     {

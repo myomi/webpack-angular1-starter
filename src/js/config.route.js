@@ -3,6 +3,9 @@ var angular = require('angular');
 angular.module('myApp')
     .config(routeConfig);
 
+/*
+ * @ngInject
+ */
 function routeConfig($stateProvider) {
     $stateProvider
         .state('hello', {
@@ -21,6 +24,12 @@ function routeConfig($stateProvider) {
             url: '/chart',
             templateUrl: 'chart.html',
             controller: 'ChartController',
+            controllerAs: 'vm'
+        })
+        .state('inject', {
+            url: '/inject',
+            templateUrl: 'inject.html',
+            controller: 'InjectController',
             controllerAs: 'vm'
         })
         ;
