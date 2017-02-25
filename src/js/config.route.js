@@ -17,5 +17,11 @@ function routeConfig($stateProvider) {
             controller: 'ClockController',
             controllerAs: 'vm'
         })
+        .state('chart', {
+            url: '/chart',
+            templateUrl: 'chart.html',
+            controller: 'ChartController',
+            controllerAs: 'vm'
+        })
         ;
 }

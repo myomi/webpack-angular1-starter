@@ -1,11 +1,16 @@
 var angular = require('angular');
 var router = require('angular-ui-router');
 var material = require('angular-material');
+var Highcharts = require('highcharts');
+var highchartNg = require('highcharts-ng');
 
-angular.module('myApp', [
+var myApp = angular.module('myApp', [
     router,
-    material
+    material,
+    highchartNg
 ]);
+
+window.Highcharts = Highcharts;
 
 // configurations
 require('./config.route');
@@ -23,3 +28,7 @@ require('./pages/hello/hello.html');
 // clock 
 require('./pages/clock/clock.controller');
 require('./pages/clock/clock.html');
+
+// chart 
+require('./pages/chart/chart.controller');
+require('./pages/chart/chart.html');
