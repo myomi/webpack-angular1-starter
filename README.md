@@ -7,6 +7,7 @@ This project uses the following libraries.
 - Angular1.X
 - ui-router
 - Angular Material
+- Highcharts
 
 ## Install
 
