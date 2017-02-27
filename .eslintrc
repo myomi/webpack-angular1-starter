@@ -6,6 +6,7 @@
     },
     "env": {
         "browser": true,
+        "node": true,
         "commonjs": true
     },
     "globals": {},
