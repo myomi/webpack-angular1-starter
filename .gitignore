@@ -2,3 +2,4 @@ node_modules/
 dist/
 .history/
 debug.log
+npm-debug.log
