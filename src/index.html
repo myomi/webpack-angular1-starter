@@ -7,7 +7,7 @@
 </head>
 <body>
     <div ng-app="myApp" layout="column" layout-fill>
-        <section layout="row">
+        <div layout="row" layout-fill>
             <md-sidenav flex
                 class="md-sidenav-left"
                 md-is-locked-open="true"
@@ -28,7 +28,7 @@
             <md-content flex layout-padding>
                 <ui-view></ui-view>
             </md-content>
-        </section>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
